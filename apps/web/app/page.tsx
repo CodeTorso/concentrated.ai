@@ -1,5 +1,4 @@
-import Countdown from "./_components/countdown";
-
+import Countdown from "@repo/ui/countdown"
 
 export default function Home() {
   return (
