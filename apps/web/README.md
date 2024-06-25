@@ -1,1 +1,1 @@
-This is the website code of concentrated.pro, it uses next.js.
+This is the website code of concentrated.pro, it uses next.js, but but it is deployed on cloudflare pages cuz why not ?

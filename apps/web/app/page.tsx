@@ -1,5 +1,3 @@
-import Countdown from "@repo/ui/countdown";
-
 export default function Home() {
   return (
     <div className="bg-black text-white flex justify-center text-center items-center h-screen w-full">
@@ -8,7 +6,7 @@ export default function Home() {
           Hello There! In this chaotic world, Your mind needs some focus!
         </h1>
         <div className="text-gray-300 flex justify-center gap-2">
-          Lanching in <Countdown />
+          Lanching on 20th July
         </div>
       </div>
     </div>
