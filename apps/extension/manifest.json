@@ -6,10 +6,13 @@
   "background": {
     "service_worker": "./background.ts"
   },
+  "host_permissions": [
+    "<all_urls>"
+  ],
   "content_scripts": [
     {
       "matches": [
-        "https://extension.js.org/*"
+        "<all_urls>"
       ],
       "js": [
         "./content/content.tsx"
@@ -19,5 +22,8 @@
   "icons": {
     "16": "public/icon/icon_16.png",
     "48": "public/icon/icon_48.png"
-  }
+  },
+  "permissions": [
+    "tabs"
+  ]
 }
