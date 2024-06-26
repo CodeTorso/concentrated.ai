@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Concentrated.pro",
-  description: "The problem is not with you, the problem is what surrounds you",
+  description: "The problem is not you, the problem is what surrounds you",
 };
 
 export default function RootLayout({
